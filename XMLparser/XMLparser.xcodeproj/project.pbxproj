@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801A1EFA13E1D58A00C0BC66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801A1EF913E1D58A00C0BC66 /* UIKit.framework */; };
+		801A1EFC13E1D58A00C0BC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801A1EFB13E1D58A00C0BC66 /* Foundation.framework */; };
+		801A1EFE13E1D58A00C0BC66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801A1EFD13E1D58A00C0BC66 /* CoreGraphics.framework */; };
+		801A1F0413E1D58A00C0BC66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 801A1F0213E1D58A00C0BC66 /* InfoPlist.strings */; };
+		801A1F0613E1D58A00C0BC66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 801A1F0513E1D58A00C0BC66 /* main.m */; };
+		801A1F0A13E1D58A00C0BC66 /* XMLparserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 801A1F0913E1D58A00C0BC66 /* XMLparserAppDelegate.m */; };
+		801A1F0D13E1D58A00C0BC66 /* XMLparserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801A1F0C13E1D58A00C0BC66 /* XMLparserViewController.m */; };
+		801A1F1013E1D58A00C0BC66 /* XMLparserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 801A1F0E13E1D58A00C0BC66 /* XMLparserViewController.xib */; };
+		801A1F1913E1D5C600C0BC66 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 801A1F1813E1D5C600C0BC66 /* Contact.m */; };
+		801A1F1C13E1D60700C0BC66 /* XMLToObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 801A1F1B13E1D60700C0BC66 /* XMLToObjectParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		801A1EF513E1D58A00C0BC66 /* XMLparser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLparser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801A1EF913E1D58A00C0BC66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		801A1EFB13E1D58A00C0BC66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		801A1EFD13E1D58A00C0BC66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		801A1F0113E1D58A00C0BC66 /* XMLparser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLparser-Info.plist"; sourceTree = "<group>"; };
+		801A1F0313E1D58A00C0BC66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		801A1F0513E1D58A00C0BC66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		801A1F0713E1D58A00C0BC66 /* XMLparser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLparser-Prefix.pch"; sourceTree = "<group>"; };
+		801A1F0813E1D58A00C0BC66 /* XMLparserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLparserAppDelegate.h; sourceTree = "<group>"; };
+		801A1F0913E1D58A00C0BC66 /* XMLparserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLparserAppDelegate.m; sourceTree = "<group>"; };
+		801A1F0B13E1D58A00C0BC66 /* XMLparserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLparserViewController.h; sourceTree = "<group>"; };
+		801A1F0C13E1D58A00C0BC66 /* XMLparserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLparserViewController.m; sourceTree = "<group>"; };
+		801A1F0F13E1D58A00C0BC66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XMLparserViewController.xib; sourceTree = "<group>"; };
+		801A1F1713E1D5C600C0BC66 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		801A1F1813E1D5C600C0BC66 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		801A1F1A13E1D60600C0BC66 /* XMLToObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLToObjectParser.h; sourceTree = "<group>"; };
+		801A1F1B13E1D60700C0BC66 /* XMLToObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLToObjectParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801A1EF213E1D58A00C0BC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801A1EFA13E1D58A00C0BC66 /* UIKit.framework in Frameworks */,
+				801A1EFC13E1D58A00C0BC66 /* Foundation.framework in Frameworks */,
+				801A1EFE13E1D58A00C0BC66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801A1EEA13E1D58900C0BC66 = {
+			isa = PBXGroup;
+			children = (
+				801A1EFF13E1D58A00C0BC66 /* XMLparser */,
+				801A1EF813E1D58A00C0BC66 /* Frameworks */,
+				801A1EF613E1D58A00C0BC66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		801A1EF613E1D58A00C0BC66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801A1EF513E1D58A00C0BC66 /* XMLparser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801A1EF813E1D58A00C0BC66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				801A1EF913E1D58A00C0BC66 /* UIKit.framework */,
+				801A1EFB13E1D58A00C0BC66 /* Foundation.framework */,
+				801A1EFD13E1D58A00C0BC66 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		801A1EFF13E1D58A00C0BC66 /* XMLparser */ = {
+			isa = PBXGroup;
+			children = (
+				801A1F1613E1D5AA00C0BC66 /* objet */,
+				801A1F0813E1D58A00C0BC66 /* XMLparserAppDelegate.h */,
+				801A1F0913E1D58A00C0BC66 /* XMLparserAppDelegate.m */,
+				801A1F0B13E1D58A00C0BC66 /* XMLparserViewController.h */,
+				801A1F0C13E1D58A00C0BC66 /* XMLparserViewController.m */,
+				801A1F0E13E1D58A00C0BC66 /* XMLparserViewController.xib */,
+				801A1F0013E1D58A00C0BC66 /* Supporting Files */,
+				801A1F1A13E1D60600C0BC66 /* XMLToObjectParser.h */,
+				801A1F1B13E1D60700C0BC66 /* XMLToObjectParser.m */,
+			);
+			path = XMLparser;
+			sourceTree = "<group>";
+		};
+		801A1F0013E1D58A00C0BC66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				801A1F0113E1D58A00C0BC66 /* XMLparser-Info.plist */,
+				801A1F0213E1D58A00C0BC66 /* InfoPlist.strings */,
+				801A1F0513E1D58A00C0BC66 /* main.m */,
+				801A1F0713E1D58A00C0BC66 /* XMLparser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		801A1F1613E1D5AA00C0BC66 /* objet */ = {
+			isa = PBXGroup;
+			children = (
+				801A1F1713E1D5C600C0BC66 /* Contact.h */,
+				801A1F1813E1D5C600C0BC66 /* Contact.m */,
+			);
+			name = objet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801A1EF413E1D58A00C0BC66 /* XMLparser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801A1F1313E1D58A00C0BC66 /* Build configuration list for PBXNativeTarget "XMLparser" */;
+			buildPhases = (
+				801A1EF113E1D58A00C0BC66 /* Sources */,
+				801A1EF213E1D58A00C0BC66 /* Frameworks */,
+				801A1EF313E1D58A00C0BC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLparser;
+			productName = XMLparser;
+			productReference = 801A1EF513E1D58A00C0BC66 /* XMLparser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801A1EEC13E1D58900C0BC66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 801A1EEF13E1D58900C0BC66 /* Build configuration list for PBXProject "XMLparser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 801A1EEA13E1D58900C0BC66;
+			productRefGroup = 801A1EF613E1D58A00C0BC66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801A1EF413E1D58A00C0BC66 /* XMLparser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801A1EF313E1D58A00C0BC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801A1F0413E1D58A00C0BC66 /* InfoPlist.strings in Resources */,
+				801A1F1013E1D58A00C0BC66 /* XMLparserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801A1EF113E1D58A00C0BC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801A1F0613E1D58A00C0BC66 /* main.m in Sources */,
+				801A1F0A13E1D58A00C0BC66 /* XMLparserAppDelegate.m in Sources */,
+				801A1F0D13E1D58A00C0BC66 /* XMLparserViewController.m in Sources */,
+				801A1F1913E1D5C600C0BC66 /* Contact.m in Sources */,
+				801A1F1C13E1D60700C0BC66 /* XMLToObjectParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		801A1F0213E1D58A00C0BC66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801A1F0313E1D58A00C0BC66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		801A1F0E13E1D58A00C0BC66 /* XMLparserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801A1F0F13E1D58A00C0BC66 /* en */,
+			);
+			name = XMLparserViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		801A1F1113E1D58A00C0BC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		801A1F1213E1D58A00C0BC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801A1F1413E1D58A00C0BC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLparser/XMLparser-Prefix.pch";
+				INFOPLIST_FILE = "XMLparser/XMLparser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		801A1F1513E1D58A00C0BC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLparser/XMLparser-Prefix.pch";
+				INFOPLIST_FILE = "XMLparser/XMLparser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801A1EEF13E1D58900C0BC66 /* Build configuration list for PBXProject "XMLparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801A1F1113E1D58A00C0BC66 /* Debug */,
+				801A1F1213E1D58A00C0BC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801A1F1313E1D58A00C0BC66 /* Build configuration list for PBXNativeTarget "XMLparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801A1F1413E1D58A00C0BC66 /* Debug */,
+				801A1F1513E1D58A00C0BC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801A1EEC13E1D58900C0BC66 /* Project object */;
+}
